@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blend1</title>
+    <style>
+        .blend {
+            height: 700px;
+            border: 5px solid;
+            background-color: rgb(255, 0, 0);
+            background-size: cover;
+            background-image: url('image.jpg');
+            background-blend-mode: hue;
+        }
+
+        .blend:hover {
+            background-color: rgba(255, 0, 0, 1);
+            transition: background-color 5s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <div class="blend"></div>
+    </h1>
+</body>
+
+</html>
